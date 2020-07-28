@@ -18,4 +18,4 @@
 * Start Screen with Options
 
 ### To fix:
-* [ ]Bug where ball can get caught in player or opponent and cause huge speedup
+* [ ] Bug where ball can get caught in player or opponent and cause huge speedup
