@@ -2,12 +2,23 @@
 //Created by: Chris Berger
 //Date: July 27, 2020
 
+//sounds
+let pong1, pong2, pong3, oof;
+
 let player;
 let ball;
 let opponent;
 let playerScore = 0;
 let opponentScore = 0;
 let scoreLimit = 7;
+
+function preload() {
+  soundFormats('mp3');
+  pong1 = loadSound('sounds/pong1');
+  pong2 = loadSound('sounds/pong2');
+  pong3 = loadSound('sounds/pong3');
+  oof = loadSound('sounds/oof');
+}
 
 function setup() {
   createCanvas(600, 400);
@@ -33,12 +44,14 @@ function draw() {
   opponent.follow(ball);
 
   if (player.hits(ball)) {
+    pong1.play();
     ball.turnAround();
     ball.changeY();
     ball.speedUp();
   }
 
   if (opponent.hits(ball)) {
+    pong3.play();
     ball.turnAround();
     ball.speedUp();
   }
@@ -49,6 +62,7 @@ function draw() {
   }
 
   if (ball.opponentScored()) {
+    oof.play();
     ball = new Ball(width / 2, height / 2);
     opponentScore++;
   }
