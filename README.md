@@ -13,9 +13,10 @@
 * Click to Restart
 
 ### To add:
-* Ablity to toggle into 2p mode
-* Smarter opponent
-* Start Screen with Options
+* [ ] Ablity to toggle into 2p mode
+* [ ] Smarter opponent
+* [ ] Start Screen with Options
+* [x] Sounds
 
 ### To fix:
 * [ ] Bug where ball can get caught in player or opponent and cause huge speedup
