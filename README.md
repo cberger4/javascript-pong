@@ -1,9 +1,9 @@
 # Javascript Pong
 
-JavaScript Pong
-Created by: Chris Berger
-Date: July 27, 2020
-[Github Profile] (https://github.com/cberger4/)
+###### JavaScript Pong
+###### Created by: Chris Berger
+###### Date: July 27, 2020
+###### [Github Profile](https://github.com/cberger4/)
 
 ### Features:
 
@@ -18,4 +18,4 @@ Date: July 27, 2020
 * Start Screen with Options
 
 ### To fix:
-* Bug where ball can get caught in player or opponent and cause huge speedup
+* []Bug where ball can get caught in player or opponent and cause huge speedup
