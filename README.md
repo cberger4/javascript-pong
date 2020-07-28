@@ -13,5 +13,5 @@ Features:
 
 To add:
 * Ablity to toggle into 2p mode
-*Smarter opponent
-~ Start Screen with Options
+* Smarter opponent
+* Start Screen with Options
